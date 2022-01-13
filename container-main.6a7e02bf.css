@@ -1,0 +1,57 @@
+.section-main {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.container-main-description {
+  background: rgba(255, 255, 255, 1);
+  max-width: 330px;
+  padding: 200px 21px 10px 21px;
+  z-index: -1;
+  flex-grow: 1;
+  
+}
+.main-card__title {
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(63, 54, 49, 1);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(156, 142, 118, 1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-card__price {
+  display: flex;
+  justify-content: space-around;
+}
+.main-card__item {
+  font-weight: 500;
+  font-size: 22px;
+  color: rgba(63, 54, 49, 1);
+}
+
+.main-card__value {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(63, 54, 49, 1);
+}
+
+.main-image__coffee{
+  position: relative;
+  transform: translateY(185px);
+}
+
+.main-image__coffee img {
+  transition: transform 0.3s ease;
+}
+.section-main:hover  img {
+  transform: scale(1.1);
+}
+
+
+/*# sourceMappingURL=/container-main.6a7e02bf.css.map */

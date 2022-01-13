@@ -1,0 +1,31 @@
+/* regular - latin */
+@font-face {
+    font-family: 'GoogleSans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('/GoogleSans-Medium.22e030ae.woff2') format('woff2'), 
+         url('/GoogleSans-Regular.90b4b336.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* medium - latin */
+@font-face {
+    font-family: 'GoogleSans';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('/GoogleSans-Medium.22e030ae.woff2') format('woff2'), 
+         url('/GoogleSans-Medium.1560b46a.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* bold - latin */
+@font-face {
+    font-family: 'GoogleSans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('/GoogleSans-Bold.bcf9adf9.woff2') format('woff2'), 
+         url('/GoogleSans-Bold.6fbc8948.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/*# sourceMappingURL=/fonts.51b3f31a.css.map */

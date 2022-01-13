@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  body{
+      background: url(/background.9f37605c.png) no-repeat;
+      background-size: cover;
+      font-family: 'GoogleSans', Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+  }
+
+  .wrapper{
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  .main{
+      display: flex;
+      margin-top: -60px;
+  }
+  footer{
+      margin-top: 100px;
+  }
+ 
+  @media screen and (max-width:800px) {
+      .main {
+          flex-direction: column;
+      }
+      
+  }
+
+/*# sourceMappingURL=/main.18317625.css.map */
